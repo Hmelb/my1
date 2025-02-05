@@ -1,0 +1,78 @@
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1rem; /* Уменьшили отступы */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem; /* Уменьшили размер заголовка */
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem; /* Уменьшили размер текста */
+}
+
+section {
+    padding: 1rem; /* Уменьшили отступы */
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem; /* Уменьшили размер заголовка */
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Уменьшили отступы между проектами */
+}
+
+.project {
+    flex: 1 1 calc(33.333% - 0.5rem);
+    background-color: #f9f9f9;
+    padding: 0.5rem; /* Уменьшили отступы */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5rem; /* Уменьшили отступы */
+    background-color: #007BFF;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
